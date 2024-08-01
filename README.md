@@ -30,7 +30,7 @@ Order of Execution is as follows:
  
 I definitely understand that these facial movements could be a little bit weird to do, especially when you are around people. Being a patient of [benign-positional-vertigo](https://www.healthline.com/health/benign-positional-vertigo), I hate doing some of these actions myself. But I hope to make them easier and less weird over time. Feel free to suggest some public friendly actions that I can incorporate in the project. 
 <div align="center">
-<img src="usage.gif" width=360 height=360/>
+<img src="usage.gif" width=400 height=360/>
 </div>
 
 
