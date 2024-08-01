@@ -9,7 +9,8 @@ At this point, you are forced to work with the Eye & Head movements I chose but 
 
 Special thanks to **Adrian Rosebrock** for his amazing blog posts [[2](#references)] [[3](#references)], code snippets and his imutils library [[7](#references)] that played an important role in making this idea of mine a reality.
 
-
+## Working Example
+<img src="https://github.com/akshaychandra21/Mouse_Cursor_Control_Handsfree/blob/master/demo.gif">
 
 ## Code Requirements
 * Numpy - 1.13.3
@@ -30,7 +31,7 @@ Order of Execution is as follows:
  
 I definitely understand that these facial movements could be a little bit weird to do, especially when you are around people. Being a patient of [benign-positional-vertigo](https://www.healthline.com/health/benign-positional-vertigo), I hate doing some of these actions myself. But I hope to make them easier and less weird over time. Feel free to suggest some public friendly actions that I can incorporate in the project. 
 <div align="center">
-<img src="usage.gif" width=360 height=460/>
+<img src="usage.gif" width=360 height=360/>
 </div>
 
 
