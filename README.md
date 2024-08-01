@@ -73,4 +73,13 @@ You can get the trained model file from http://dlib.net/files, click on **shape\
 
 Note: The license for the iBUG 300-W dataset excludes commercial use. So you should contact Imperial College London to find out if it's OK for you to use this model file in a commercial product.
 
+## Result
+<div align="center">
+<img src="calliberation.gif" width=600 height=360/>
+</div>
+
+
+<div align="center">
+<img src="working.gif" width=400 height=600/>
+</div>
 
