@@ -80,6 +80,6 @@ Note: The license for the iBUG 300-W dataset excludes commercial use. So you sho
 
 
 <div align="center">
-<img src="working.gif" width=400 height=600/>
+<img src="working.gif" width=1000 height=600/>
 </div>
 
