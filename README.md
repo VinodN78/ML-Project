@@ -16,7 +16,7 @@ Special thanks to **Adrian Rosebrock** for his amazing blog posts [[2](#referenc
 * OpenCV - 3.2.0
 * PyAutoGUI - 0.9.36
 * Dlib - 19.4.0
-* Imutils - 0.4.6
+
 
 ## Execution
 Order of Execution is as follows:
