@@ -1,4 +1,4 @@
-# Mouse Cursor Control Using Eye & Head Movements [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/akshaychandra21/Mouse_Cursor_Control_Handsfree/blob/master/LICENSE)
+# Mouse Cursor Control Using Eye & Head Movements 
 
 This HCI (Human-Computer Interaction) application in Python(3.6) will allow you to control your mouse cursor with your Eye & Head movements, works with just your regular webcam. Its hands-free, no wearable hardware or sensors needed.
 
@@ -7,7 +7,6 @@ At this point, you are forced to work with the Eye & Head movements I chose but 
  - Squinting your eyes (**squint** - To look with the eyes partly closed, as in bright sunlight)
  - Moving your head around (pitch and yaw)
 
-Special thanks to **Adrian Rosebrock** for his amazing blog posts [[2](#references)] [[3](#references)], code snippets and his imutils library [[7](#references)] that played an important role in making this idea of mine a reality.
 
 
 
@@ -37,16 +36,16 @@ I definitely understand that these facial movements could be a little bit weird 
 
 
 ## How It Works
-This project is deeply centered around predicting the facial landmarks of a given face. We can accomplish a lot of things using these landmarks. From detecting eye-blinks [[3](#references)] in a video to predicting emotions of the subject. The applications, outcomes and possibilities of facial landmarks are immense and intriguing.
+This project is deeply centered around predicting the facial landmarks of a given face. We can accomplish a lot of things using these landmarks. From detecting eye-blinks  in a video to predicting emotions of the subject. The applications, outcomes and possibilities of facial landmarks are immense and intriguing.
 
-[Dlib](dlib.net/)'s prebuilt model, which is essentially an implementation of [[4](#references)], not only does a fast face-detection but also allows us to accurately predict 68 2D facial landmarks. Very handy.  
+[Dlib](dlib.net/)'s prebuilt model, which is essentially an implementation of  not only does a fast face-detection but also allows us to accurately predict 68 2D facial landmarks. Very handy.  
 
 
 
-Using these predicted landmarks of the face, we can build appropriate features that will further allow us to detect certain actions, like using the eye-aspect-ratio (more on this below) to detect a blink or a wink, using the mouth-aspect-ratio to detect a yawn etc or maybe even a pout. In this project, these actions are programmed as triggers to control the mouse cursor. [PyAutoGUI](http://pyautogui.readthedocs.io) library was used to control the mouse cursor. 
+Using these predicted landmarks of the face, we can build appropriate features that will further allow us to detect certain actions, like using the eye-aspect-ratio (more on this below) to detect a blink . In this project, these actions are programmed as triggers to control the mouse cursor. [PyAutoGUI](http://pyautogui.readthedocs.io) library was used to control the mouse cursor. 
 
 ### Eye-Aspect-Ratio (EAR)
-You will see that Eye-Aspect-Ratio [[1](#references)] is the simplest and the most elegant feature that takes good advantage of the facial landmarks. EAR helps us in detecting blinks [[3](#references)] and winks etc.  
+You will see that Eye-Aspect-Ratio is the simplest and the most elegant feature that takes good advantage of the facial landmarks. EAR helps us in detecting blinks  and winks etc.  
 
 
 You can see that the EAR value drops whenever the eye closes. We can train a simple classifier to detect the drop. However, a normal if condition works just fine. Something like this:
@@ -74,12 +73,12 @@ You can get the trained model file from http://dlib.net/files, click on **shape\
 Note: The license for the iBUG 300-W dataset excludes commercial use. So you should contact Imperial College London to find out if it's OK for you to use this model file in a commercial product.
 
 ## Result
-<div align="center">
+<div align="right">
 <img src="calliberation.gif" width=600 height=360/>
 </div>
 
 
-<div align="center">
+<div align="right">
 <img src="working.gif" width=1000 height=600/>
 </div>
 
